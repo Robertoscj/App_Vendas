@@ -1,12 +1,9 @@
+import 'package:app_vendas/src/componetes/pages/HomePage.dart';
 import 'package:flutter/material.dart';
 
 class Layout {
   static int currItem = 0;
-  static final pages = [
-    HomePage.tag,
-    SobrePage.tag,
-    SobrePage.tag,
-  ];
+  static final pages = [Homepage.tag];
 
   static TextEditingController _c = TextEditingController();
   static Scaffold getContent(BuildContext context, content,
